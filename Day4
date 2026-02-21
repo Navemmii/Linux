@@ -1,0 +1,33 @@
+Day4
+Execute the following commands after creating the directory and file
+
+ls -la /tmp/xfusioncorp.sh 
+sudo chmod 555 /tmp/xfusioncorp.sh 
+ls -la /tmp/xfusioncorp.sh 
+
+NB: Remember to update the steps you took
+
+-----------------------------------------------------------------------------------
+Steps Taken
+-----------------------------------------------------------------------------------
+I created a directory tmp using mkdir command
+I created a file called xfusioncorp.sh inside the tmp directory using touch command
+I used ls -la comand to confirm the creayted file and veiw permission details
+I used the sudo chmod 555 command to give read and execute permission to myself, my group and others
+I used ls -la command to view and confirm the permissions I added to the file
+I used ./tmp/xfusioncorp.sh to execute the file and it was succesful
+
+-----------------------------------------------------------------------------------
+Alternate Steps Taken
+-----------------------------------------------------------------------------------
+I used the sudo chmod 755 command to make xfusioncorp.sh writeable for only myself after line 17 above
+I used ls -la command to view and confirm the permissions I added to the file
+I used vi command to add an excutable script to xfusioncorp.sh to test
+I used the script shown from line 31-33 below
+I used ./tmp/xfusioncorp.sh to execute the file
+I confirmed my script had information and it was executable
+
+
+#!/bin/bash
+
+echo "Hi there, are you ready to get locked-in?"
