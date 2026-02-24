@@ -16,6 +16,9 @@ I used ls -la comand to confirm the creayted file and veiw permission details
 I used the sudo chmod 555 command to give read and execute permission to myself, my group and others
 I used ls -la command to view and confirm the permissions I added to the file
 I used ./tmp/xfusioncorp.sh to execute the file and it was succesful
+I used (git add Day4) command to stage the Day4 file
+I used (git commit -m "details") to commit Day4 file
+I used (git push) to push the files to my remote repo on github
 
 -----------------------------------------------------------------------------------
 Alternate Steps Taken

@@ -25,3 +25,6 @@ I navigated to the directory containing the tmp folder
 I used (sudo chown :interns tmp) to change the group ownership to interns
 I used (sudo chmod 750 tmp) to set read only permission to the interns group
 I used (ls -ld) to confirm changes to tmp permisiions
+I used (git add Day5) command to stage the Day5 file
+I used (git commit -m "details") to commit Day5 file
+I used (git push) to push the files to my remote repo on github
