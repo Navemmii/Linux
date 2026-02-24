@@ -1,4 +1,4 @@
-Day 3 Lesson
+Day 3
 Ensure you are in the LInux Directory by typing pwd, else cd into the Linux Directory
 Create three files using the touch command namely Day3, Testfile1 and Testfile 2 respectively
 Create a directory name Demo

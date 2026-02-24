@@ -1,0 +1,27 @@
+Day 5
+
+You work as the IT staff in a company, a new intern Sam started today.You received an email from HR to create Sam in the system with all the necessary credentials.
+Create user Sam
+Give Sam password Sam#123
+Create group interns
+Add Sam to the interns group 
+Grant group interns read only priviledges to the /tmp folder your created in Day4
+
+NB: Kindly outline the steps you took to finish this task.
+
+-----------
+Steps Taken
+-----------
+
+I navigated to my root user’s home directory to start the tasks (the alternative is to use sudo command anywhere)
+I used (sudo useradd -m sam) to add the new intern as a user
+I verified it's success with (ls /home) and (id sam)
+I set the password to (Sam#123) using (sudo passwd sam) command
+I created a group for interns using (sudo groupadd interns) command
+I verified it's success using (getent group interns)
+I used (sudo usermod -aG interns sam) to add the user sam to the Interns group
+I used (groups sam) or (getent group interns)to verify
+I navigated to the directory containing the tmp folder
+I used (sudo chown :interns tmp) to change the group ownership to interns
+I used (sudo chmod 750 tmp) to set read only permission to the interns group
+I used (ls -ld) to confirm changes to tmp permisiions
